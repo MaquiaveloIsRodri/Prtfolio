@@ -96,14 +96,12 @@
         margin-top: 6px;
         margin-bottom: 6px;
     }
-
     .education-info {
         font-size: 16px;
         line-height: 15px;
         font-family: $colorSubTitle;
         color: $colorSubTitle;
     }
-
     .education-suInfo {
         font-size: 14px;
         line-height: 15px;
@@ -170,7 +168,6 @@
     margin-bottom: 19px;
     font-family: $titleFond;
 }
-
 .Img-tecnologies {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -299,8 +296,6 @@
 .React:hover::after{
     transform: translateY(0);
 }
-
-//logo webpack
 .webpack{
     background-image: url(../img/webpack.png);
     width: 96px;
@@ -329,7 +324,6 @@
 .webpack:hover::after{
     transform: translateY(0);
 }
-//npm
 .npm{
     background-image: url(../img/Npm.png);
     width: 97px;
@@ -361,8 +355,6 @@
 .npm:hover::after{
     transform: translateY(0);
 }
-//figma
-
 .Figma{
     background-image: url(../img/Figma.png);
     width: 96px;
@@ -391,7 +383,6 @@
 .Figma:hover::after{
     transform: translateY(0);
 }
-//git
 .gitHub{
     background-image: url(../img/gitHub.png);
     width: 96px;

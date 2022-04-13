@@ -1,9 +1,8 @@
 {
-  "homepage": "https: //MaquiaveloIsRodri.github.io/Prtfolio",
+  "homepage": "https://MaquiaveloIsRodri.github.io/Prtfolio/",
   "name": "prtafolio",
   "version": "0.1.0",
-  "main": "index.js",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",

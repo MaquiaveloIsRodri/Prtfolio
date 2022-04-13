@@ -1,4 +1,3 @@
-import React from "react";
 import { jsPDF } from "jspdf";
 import img1 from "../img/Cv1.jpg";
 import img2 from "../img/Cv2.jpg"; 

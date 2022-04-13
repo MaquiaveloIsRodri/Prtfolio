@@ -1,0 +1,556 @@
+@import 'Root.scss';
+a{
+    text-decoration: none;
+}
+.proyects{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(248, 241, 255);
+    flex-direction: column;
+    transition: all 5s;
+    .proyect-container{
+        display: flex;
+        flex-direction: column;
+        .PracticaTodo {
+            width: 140px;
+            height: 210px;
+            background-color: #706C89;
+            margin: 0 auto;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            border-radius: 15px;
+        
+            .PracticaTodo-Img {
+                display: block;
+                border-radius: 5px;
+                margin-top:12px ;
+                width: 120px;
+                height: 100px;
+                background-image: url(../img/todo.jpg);
+            }
+        
+        }
+        
+        .PatataBit {
+            width: 140px;
+            height: 210px;
+            background-color: #706C89;
+            margin: 0 auto;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+        
+            .PatataBit-Img {
+                display: block;
+                border-radius: 5px;
+                width: 120px;
+                height: 100px;
+                background-image: url(../img/Batata.jpg);
+            }
+        }
+        
+        .MyBlog {
+            width: 140px;
+            height: 210px;
+            background-color: #706C89;
+            margin: 0 auto;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        
+            .MyBlog-Img {
+                display: block;
+                border-radius: 5px;
+                width: 120px;
+                height: 100px;
+                background-image: url(../img/MyBlog1.jpg);
+            }
+        }
+        
+        .button-More {
+            border-radius: 10px;
+            border: none;
+            margin: 0 auto;
+            background-color: #706C89;
+            width: 79px;
+            height: 35px;
+            font-size: 18px;
+            color: white;
+            font-family: "Inter",
+                sans-serif;
+            font-style: normal;
+            margin-bottom: 15px;
+        }
+        .button-More:hover{
+            box-shadow: -2px 4px 15px -5px rgba(105, 97, 153, 0.493);
+            width: 80px;
+            height: 36px;
+            transition: 0.3s alternate;
+        }
+
+    }
+    
+}
+.titulosText{
+    color: white;
+}
+.PracticaTodoT {
+    width: 140px;
+    height: 210px;
+    background-color: #706C89;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    color: transparent;
+    animation-name: escalado;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards ;
+    .PracticaTodo-ImgT {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: block;
+        border-radius: 5px;
+        width: 120px;
+        height: 100px;
+        background-image: url(../img/todo.jpg);
+        position: absolute;
+        animation-name:acomodador;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    }
+    .ocultar {
+        width: 95%;
+        margin: 0 auto;
+        h2{
+            font-family: $titleFond;
+            color: white;
+            margin-top: 10px;
+        }
+        p {
+            color: #e4e4e4
+        }
+    }
+}
+@keyframes escalado {
+    0%{
+    }
+    25%{
+        margin-left:20px;
+        margin-top: 30px;
+        width: 40%;
+        color: rgba(255, 255, 255, 0.253);
+    }
+    50%{
+        width: 55%;
+        margin-left:10px;
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.644);
+    }
+    100%{
+        width: 70%;
+        height: 210px;
+        margin: 0;
+        margin-left: 5px;
+        margin-top: 15px;
+        color: rgb(255, 255, 255);
+    }
+}
+@keyframes acomodador {
+    0%{}
+    100%{
+        position: relative;
+        margin: 0 auto;
+    }
+}
+.PatataBitT-container{
+        width: 140px;
+        height: 220px;
+        background-color: #706C89;
+        margin: 0 auto;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        position: relative;
+        overflow: hidden;
+        color: transparent;
+        animation-name: escalado5;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode:forwards;
+        
+        .PatataBit-ImgT{
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            display: block;
+            border-radius: 5px;
+            width: 120px;
+            height: 100px;
+            background-image: url(../img/Batata.jpg);
+            position: absolute;
+            animation-name: acomodador5;
+            animation-duration: 1.5s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        
+        .PatataBit__Text{
+            width: 95%;
+            margin: 0 auto;
+            h2 {
+                font-family: $titleFond;
+                margin-top: 5px;
+            }
+            p {
+                color: #e4e4e4
+            }
+        }
+}
+@keyframes escalado5{
+    0% {}
+
+    25% {
+        width: 40%;
+        justify-self: end;
+        align-self: flex-start;
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.253);
+    }
+
+    50% {
+        width: 55%;
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.644);
+    }
+
+    100% {
+        width: 70%;
+        height: 220px;
+        margin: 0;
+        margin-right: 5px;
+        margin-left: 29%;
+        margin-top: 15px;
+        color: rgb(255, 255, 255);
+
+    }
+}
+
+@keyframes acomodador5{
+    0% {}
+
+    100% {
+        position: relative;
+        margin: 0 auto;
+    }
+}
+.MyBlogT-container{
+    width: 140px;
+    height: 210px;
+    background-color: #706C89;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    color: transparent;
+    animation-name: escalado;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    .MyBlog-ImgT {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: block;
+        border-radius: 5px;
+        width: 120px;
+        height: 100px;
+        background-image: url(../img/MyBlog1.jpg);
+        position: absolute;
+        animation-name: acomodador;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    }
+
+    .ocultar {
+        width: 95%;
+        margin: 0 auto;
+        h2 {
+            font-family: $titleFond;
+            margin-top: 10px;
+        }
+        p {
+            color: #e4e4e4
+        }
+    }
+}
+.button-MoreT {
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: #706C89;
+    width: 79px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    font-family: "Inter",
+        sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.button-MoreT:hover {
+    filter: drop-shadow(0px 0px 10px #65627c);
+    background-color: #65627c;
+    transition: 0.3s alternate;
+}
+.PracticaTodoT-container1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.PracticaTodoT:hover {
+    filter: drop-shadow(0px 0px 15px #2b2652);
+    transition: 1s alternate;
+
+}
+
+.PatataBitT-container:hover {
+    filter: drop-shadow(0px 0px 15px #2b2652);
+    transition: 1s alternate;
+}
+
+.MyBlogT-container:hover {
+    filter: drop-shadow(0px 0px 15px #2b2652);
+    transition: 1s alternate;
+}
+@media screen and (min-width: 600px){
+    .ocultar {
+        .titulosText{
+            font-family: $titleFond;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    
+        p {
+            font-size: 12px;
+            color: #e4e4e4
+        }
+    }
+    .MyBlogT-container{
+        display: grid;
+    }
+    .PatataBitT-container{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 2fr;
+
+    }
+    @keyframes escalado {
+        0% {}
+    
+        25% {
+            margin-left: 20px;
+            margin-top: 30px;
+            width: 40%;
+            color: rgba(255, 255, 255, 0.253);
+        }
+    
+        50% {
+            width: 55%;
+            margin-left: 10px;
+            margin-top: 15px;
+            color: rgba(255, 255, 255, 0.644);
+        }
+    
+        100% {
+            width: 70%;
+            height: 210px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            margin: 0;
+            margin-left: 5px;
+            margin-top: 15px;
+            color: rgb(255, 255, 255);
+    
+        }
+    }
+    .PracticaTodoT:hover {
+        filter: drop-shadow(0px 0px 15px #2b2652);
+        display: inline-block;
+        padding-top: 20px;
+        transition: 1s alternate;
+    
+    }
+    
+    .PatataBitT-container:hover {
+        filter: drop-shadow(0px 0px 15px #2b2652);
+        padding-bottom: 55px;
+        transition: 1s alternate;
+    }
+    
+    .MyBlogT-container:hover {
+        filter: drop-shadow(0px 0px 15px #2b2652);
+        padding-bottom: 55px;
+        transition: 1s alternate;
+    }
+}
+
+@media screen and (min-width: 1024px){
+        @keyframes escalado{
+            0% {}
+        
+            25% {
+                margin-left: 20px;
+                margin-top: 30px;
+                width: 40%;
+                color: rgba(255, 255, 255, 0.253);
+            }
+        
+            50% {
+                width: 43%;
+                margin-left: 10px;
+                margin-top: 15px;
+                color: rgba(255, 255, 255, 0.644);
+            }
+        
+            100% {
+                width: 50%;
+                height: 210px;
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                margin: 0;
+                margin-left: 5px;
+                margin-top: 15px;
+                color: rgb(255, 255, 255);
+            }
+        }
+        @keyframes escalado5 {
+            0% {}
+        
+            25% {
+                width: 40%;
+                justify-self: end;
+                align-self: flex-end;
+                margin-top: 15px;
+                color: rgba(255, 255, 255, 0.253);
+            }
+        
+            50% {
+                width: 42%;
+                margin-top: 15px;
+                color: rgba(255, 255, 255, 0.644);
+            }
+        
+            100% {
+                width: 50%;
+                height: 220px;
+                margin: 0;
+                margin-right: 5px;
+                margin-left: 49.5%;
+                margin-top: 15px;
+                color: rgb(255, 255, 255);
+        
+            }
+        }
+        .ocultar {
+            .titulosText {
+                font-family: $titleFond;
+                font-size: 25px;
+                margin-top: 10px;
+            }
+        
+            p {
+                font-size: 14px;
+                color: #e4e4e4
+            }
+        }
+        .PracticaTodoT .PracticaTodo-ImgT{
+            width: 140px;
+            height: 120px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        } 
+        .PatataBitT-container .PatataBit-ImgT {
+            width: 140px;
+            height: 120px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .MyBlogT-container .MyBlog-ImgT{
+            width: 140px;
+            height: 120px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .button-MoreT{
+            margin-top: 25px;
+            margin-bottom: 25px;
+            width: 84px;
+            height: 43px;
+        }
+        .PracticaTodoT:hover {
+            filter: drop-shadow(0px 0px 15px #2b2652);
+            display: inline-block;
+            padding-top: 20px;
+            transition: 1s alternate;
+            
+        }
+        .PatataBitT-container:hover {
+            filter: drop-shadow(0px 0px 15px #2b2652);
+            padding-bottom: 55px;
+            transition: 1s alternate;
+        }
+        .MyBlogT-container:hover {
+            filter: drop-shadow(0px 0px 15px #2b2652);
+            padding-bottom: 55px;
+            transition: 1s alternate;
+        }
+}

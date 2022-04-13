@@ -1,0 +1,90 @@
+@import 'Root.scss' ;
+.about-me{
+    width: 85%;
+    margin: 0 auto;
+    background: transparent;
+    height: 47vh;
+    margin-top: 3.5rem;
+    background: linear-gradient(0deg, #2D2753 0%, rgba(47, 40, 85, 0.988172) 3.65%, rgba(48, 42, 86, 0.980287) 13.02%, rgba(60, 54, 95, 0.899471) 59.38%, rgba(72, 66, 103, 0.822984) 69.79%, rgba(91, 87, 118, 0.693038) 85.42%, rgba(85, 80, 113, 0.737493) 99.98%, rgba(123, 120, 141, 0.484292) 99.99%, rgba(196, 196, 196, 0) 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-family: $titleFond;
+        margin-top: 15px;
+        text-align: center;
+        font-size: 1.5rem;
+        color: $colorTitle;
+    }
+    .about-me_paragraph{
+        font-family: $subTitleFond;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 0.9rem;
+        width: 80%;
+        height: 50%;
+        color: $colorSubTitle;
+        line-height: 20px;
+        margin-top: 2rem;
+        background: transparent;
+    }
+    .font{
+        font-size: 1rem;
+    }
+    .fontTitle{
+        font-family: $titleFond;
+        margin: auto;
+        padding-top: 15px;
+        text-align: center;
+        font-size: 1.65rem;
+        color: $colorTitle;
+    }
+    .text-2{
+        margin-top: 8px;
+    }
+    .text-3{
+        margin-top: 8px;
+    }
+    
+}
+@media screen and (min-width: 375px) {
+    .about-icon{
+        background-image: url(../img/instruction100.png);
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+    .about-me .about-me_paragraph{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .about-icon {
+        width: 75px;
+        height: 84px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about-me .fontTitle{
+        font-size: 2rem;
+    }
+    .about-me .font{
+       font-size: 1.3rem;
+    }
+    .about-icon {
+        width: 84px;
+        height: 84px;
+        margin-top: 15px;
+    }
+
+    .about-me .about-me_paragraph {
+        margin-top: 1rem;
+    }
+}

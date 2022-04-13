@@ -1,0 +1,114 @@
+@import 'Root.scss';
+.my{
+    width: 90%;
+    height: 86vh;
+    background: transparent;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .My-image{
+        display: inline-block;
+        width: 83vw;
+        height: 52vh;
+        border-radius: 50%;
+        justify-self: center;
+        background-image: url(../img/FotoMy.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .imagen{
+        width: 350px;
+        height: 56vh;
+    }
+    .My-title{
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 17ch;
+        font-family: $titleFond;
+        font-size: 2.8em;
+        color: rgb(255, 255, 255);
+        margin-top: 3rem;
+        animation: typing 4s steps(17) 1 alternate,
+        blink .5s infinite step-end alternate;
+        overflow: hidden;
+    }
+    .My-soy {
+        color: #dc00d4;
+        border: #dc00d4;
+    }
+    .My-subTitle{
+        font-family: $subTitleFond;
+        font-size: 1.5em;
+        color: rgb(177, 177, 177);
+        margin-top: 0.8rem;
+    }
+    .my-buttonMini{
+        width: 7rem;
+        height: 1.5rem;
+        margin-top: 0.8rem;
+        background-color: $ButtonColor;
+        border:none;
+        border-radius: 0.5rem;
+        color: rgb(255, 255, 255);
+    }
+   
+}
+.arregloTitle{
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 17ch;
+    font-family: $titleFond;
+    font-size: 3.5em;
+    color: rgb(255, 255, 255);
+    margin-top: 3rem;
+    animation: typing 4s steps(17) 1 alternate,
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+.arregloSubtitle{
+    font-family: $subTitleFond;
+    font-size: 2em;
+    color: rgb(177, 177, 177);
+    margin-top: 0.8rem;
+}
+.my-button{
+        width: 8rem;
+        height: 2.5rem;
+        margin-top: 1.5rem;
+        background-color: $ButtonColor;
+        font-size: 15px;
+        border:none;
+        border-radius: 0.5rem;
+        color: rgb(255, 255, 255);
+}
+.my-buttonMini:hover{
+    filter: drop-shadow(0 0 5px #706C89);
+    width: 7.3rem;
+    height: 1.7rem;
+    transition: 0.3s alternate;
+
+}
+.my-button:hover {
+    filter: drop-shadow(0 0 5px #706C89);
+    width: 8.1rem;
+    height: 2.6rem;
+    transition: 0.3s alternate;
+
+}
+@keyframes typing{
+    from{width: 0;}
+}
+
+@keyframes blink{
+    50%{border-color: transparent;}
+}
+
+@media (min-width: 440px){
+    .My-image {
+        width: 350px;
+    }
+    
+}

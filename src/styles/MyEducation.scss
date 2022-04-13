@@ -1,0 +1,427 @@
+@import 'Root.scss';
+.Imagen-blackState{
+    background: linear-gradient(359.93deg, #1C1E2E 92.24%, rgba(28, 30, 46, 0.716836) 246.18%, rgba(28, 30, 46, 0) 502.56%);
+}
+.my-education{
+    width: 100%;
+    height: 1150px;
+    background:url(../img/Estrellas.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vh;
+}
+.arregloMy-education{
+    width: 100%;
+    height: 680px;
+    background:url(../img/Estrellas.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction:row;
+    padding-top: 6vh;
+    justify-content: center;
+    align-items: center;
+}
+.arregloEducacion {
+    padding-top: 30px;
+    width: 40%;
+    height: 555px;
+    margin: 0 auto;
+    background-color: #2C2C3D;
+    border-radius: 21px;
+}
+.container {
+    padding-top: 25px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #2C2C3D;
+    border-radius: 21px;
+}
+.title-education {
+    margin-top: 1.5vh;
+    font-family: $titleFond;
+    font-size: 1.7rem;
+    color: $colorTitle;
+    text-align: center;
+}
+.container-icon {
+    display: flex;
+    width: 85%;
+    height: 9vh;
+    margin: 0 auto;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    .icon-education {
+        width: 54px;
+        height: 45px;
+        margin: 0 auto;
+        background-image: url(../img/Lapicera.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+}
+.container-Tecnologies {
+    width: 80%;
+    height: 555px;
+    background: #BDBBC7;
+    margin: 0 auto;
+    margin-top: 38px;
+    border-radius: 21px;
+}
+.arregloTecnologias {
+    width: 40%;
+    height: 555px;
+    padding-top: 30px;
+    background: #BDBBC7;
+    margin: 0 auto;
+    border-radius: 21px;
+}
+.container-education {
+    width: 100%;
+    height: 75%;
+    margin-top: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .education-line {
+        border-left: 2px solid white;
+        height: 19px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .education-info {
+        font-size: 16px;
+        line-height: 15px;
+        font-family: $colorSubTitle;
+        color: $colorSubTitle;
+    }
+
+    .education-suInfo {
+        font-size: 14px;
+        line-height: 15px;
+        color: #8075FF;
+    }
+
+    .education-Button {
+        border-radius: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $ButtonColor;
+        width: 79px;
+        height: 35px;
+        font-size: 18px;
+        color: $colorTitle;
+        font-family: $subTitleFond;
+        font-style: normal;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+}
+.Arreglo-title-education {
+    margin-top: 1.5vh;
+    font-family: $titleFond;
+    font-size: 2.5rem;
+    color: $colorTitle;
+    text-align: center;
+}
+.Arreglo-education-info{
+    font-size: 19px;
+    line-height: 15px;
+    margin-bottom: 3px;
+    font-family: $colorSubTitle;
+    color: $colorSubTitle;
+}
+.Arreglo-education-suInfo{
+    font-size: 17px;
+    line-height: 15px;
+    color: #8075FF;
+}
+.Arreglo-education-Button{
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $ButtonColor;
+    width: 86px;
+    height: 40px;
+    font-size: 18px;
+    color: $colorTitle;
+    text-decoration: none;
+    font-family: $subTitleFond;
+    font-style: normal;
+    margin-top: 15px;
+}
+.Title-tecnologies {
+    color: #2D2753;
+    text-align: center;
+    padding-top: 28px;
+    font-size: 28px;
+    margin-bottom: 19px;
+    font-family: $titleFond;
+}
+
+.Img-tecnologies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    gap: 15px;
+}
+.education-Button:hover{
+    filter: drop-shadow(0 0 5px #706C89);
+    transition: 0.3s alternate;
+    
+}
+.Arreglo-education-Button:hover{
+    filter: drop-shadow(0 0 5px #706C89);
+}
+.java{
+    background-image: url(../img/JavaScript.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 97px;
+    width: 102px;
+    position: relative;
+    overflow: hidden;
+}
+.java:hover{
+    box-shadow:-1px 2px 34px 2px rgba(68,68,128,1);
+}
+.java:hover::after{
+    transform: translateY(0);
+}
+.java::after{
+    content: "JavaScript";
+    font-size: 15px;
+    background-color: #2c2c3dda;
+    color: #fafafa;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+.Html{
+    background-image: url(../img/Html.png);
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.Html::after{
+    content: "HTML";
+    font-size: 15px;
+    background-color: #2c2c3dda;
+    color: #fafafa;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+.Html:hover{
+    box-shadow:-1px 2px 34px 2px rgba(68,68,128,1);
+}
+.Html:hover::after{
+    transform: translateY(0);
+}
+.Css{
+    background-image: url(../img/Css.png);
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.Css::after{
+    content: "CSS";
+    font-size: 15px;
+    background-color: #2c2c3dda;
+    color: #fafafa;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+.Css:hover{
+    box-shadow:-1px 2px 34px 2px rgba(68,68,128,1);
+}
+.Css:hover::after{
+    transform: translateY(0);
+}
+.React{
+    background-image: url(../img/react.png);
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.React::after{
+    content: "React";
+    font-size: 15px;
+    background-color: #2c2c3dda;
+    color: #fafafa;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+.React:hover{
+    box-shadow:-1px 2px 34px 2px rgba(68,68,128,1);
+}
+.React:hover::after{
+    transform: translateY(0);
+}
+
+//logo webpack
+.webpack{
+    background-image: url(../img/webpack.png);
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.webpack::after{
+    content: "webpack";
+    font-size: 15px;
+    background-color: #2c2c3dda;
+    color: #fafafa;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+.webpack:hover{
+    box-shadow:-1px 2px 34px 2px rgba(68,68,128,1);
+}
+.webpack:hover::after{
+    transform: translateY(0);
+}
+//npm
+.npm{
+    background-image: url(../img/Npm.png);
+    width: 97px;
+    height: 57px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    justify-self: center;
+    align-self: center;
+}
+.npm::after{
+    content: "Npm";
+    font-size: 15px;
+    background-color: #2c2c3dda;
+    color: #fafafa;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    transform: translateY(100%);
+    transition: 0.3s;
+    
+}
+.npm:hover{
+    box-shadow:-1px 2px 34px 2px rgba(68,68,128,1);
+}
+.npm:hover::after{
+    transform: translateY(0);
+}
+//figma
+
+.Figma{
+    background-image: url(../img/Figma.png);
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.Figma::after{
+    content: "Figma";
+    font-size: 15px;
+    background-color: #2c2c3dda;
+    color: #fafafa;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+.Figma:hover{
+    box-shadow:-1px 2px 34px 2px rgba(68,68,128,1);
+}
+.Figma:hover::after{
+    transform: translateY(0);
+}
+//git
+.gitHub{
+    background-image: url(../img/gitHub.png);
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.gitHub::after{
+    content: "gitHub";
+    font-size: 15px;
+    background-color: #2c2c3dda;
+    color: #fafafa;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+.gitHub:hover{
+    box-shadow:-1px 2px 34px 2px rgba(68,68,128,1);
+}
+.gitHub:hover::after{
+    transform: translateY(0);
+}
+
+
+
+
+
